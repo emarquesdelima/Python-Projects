@@ -19,7 +19,7 @@ class Converter:
 
 calc = Converter()
 
-raio = float(input("Qual o raio do cilindro? "))
-altura = float(input("Qual a altura do cilindro? "))
+raio = float(input("Qual o raio do cilindro em metros? "))
+altura = float(input("Qual a altura do cilindro em metros? "))
 
 calc.volume_cilindrto_litros(altura,raio)
