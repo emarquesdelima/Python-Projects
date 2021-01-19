@@ -6,7 +6,7 @@ class Converter:
         print(f"O raio é: {raio}")
         print(f"A altura é: {altura}")        
         volume = pi * (raio**2) * altura
-        volume_litros = volume * 1000
+        volume_litros = round(volume * 1000, 3)
         print(f"O volume em litros é: {volume_litros}")
         pass
 
