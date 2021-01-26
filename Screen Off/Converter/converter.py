@@ -1,5 +1,5 @@
 class Converter:
-    def volume_cilindrto_litros(self):
+    def volume_cilindro_litros(self):
         raio = float(input("Qual o raio do cilindro em metros? "))
         altura = float(input("Qual a altura do cilindro em metros? "))        
         pi = 3.14
@@ -11,4 +11,4 @@ class Converter:
         pass
 
 calc = Converter()
-calc.volume_cilindrto_litros()
+calc.volume_cilindro_litros()
